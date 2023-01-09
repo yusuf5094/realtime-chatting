@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.main-wrapper{
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: #FBFBFB;
+}
+.brand h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.brand{
+    padding: 16px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+.brand i{
+    color: #8F8BE8;
+}
+
+.message-area{
+    height: 400px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+
+textarea{
+    width: 93%;
+    border: none;
+    padding: 1rem;
+    font-size: 16px;
+    outline: none;
+    background: #e9eafd;
+    border-radius: 25px;
+    resize: none;
+    
+}
+
+
+i{
+    color: #8F8BE8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+i:hover{
+    color: #5b57a2;
+}
+
+.textarea-div{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.message{
+    display: inline-block;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+
+.incoming{
+    background: #8F8BE8;
+    color: #fff;
+    margin-right: auto;
+}
+
+.outgoing{
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+
+@media (max-width: 500px){
+    .main-wrapper{
+        width: 95%;
+    }
+}
