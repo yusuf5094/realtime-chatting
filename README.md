@@ -41,5 +41,5 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](images/screenshot.png)
+![App Screenshot](/images/screenshot.png)
 
